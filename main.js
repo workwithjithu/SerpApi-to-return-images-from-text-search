@@ -36,7 +36,7 @@ const server = http.createServer(async (req, res) => {
               q: inputString,
               engine: "google_images",
               ijn: "0",
-              api_key: "3d5a2e030bbef1ef25f668168fa41172f4efe431f5ab9d0979d210e0bc0eb74d"    
+              api_key: "YOUR API KEY"    
           });
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify(response, null, 2));
