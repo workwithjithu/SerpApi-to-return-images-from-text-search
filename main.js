@@ -5,7 +5,7 @@ const fs = require('fs');
 const axios = require('axios');
 const { getJson } = require("serpapi");
 
-const p="male navy_green short sleeve "
+
 const server = http.createServer(async (req, res) => {
 
     // Set CORS headers

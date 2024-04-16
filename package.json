@@ -1,0 +1,16 @@
+{
+  "name": "serpapi-to-return-images-from-text-search",
+  "version": "1.0.0",
+  "description": "> SerpAPi is an API created to use custom search bar of google.     > It has many custom searches like using google lens to search or to return only images from a search engine",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.6.5"
+  }
+}
